@@ -256,16 +256,14 @@ To deploy a Streamlit app on Huggingface spaces, follow these steps:
 3. In the newly created space, give it a deployment name, choose a license, select "Streamlit" as the framework and create the space.
 4. In the "Files and versions" tab, click on "Add file" then "Upload files" to upload the `app.py` (Streamlit web app) and `bg-img.jpg` (background image) located in the `deployment` directory and commit the files.
 5. Click on "Add file" again and click on "Create a new file" and name it `requirements.txt` and include the `python-dotenv` package to install and then make commit.
-
    <img src="assets/req1.png" width="800" height="300">
 6. In the "Settings" tab, add repository secrets (API URL)
-
+   
    <img src="assets/api1.png" width="800" height="300">
 
 With these steps completed, the app should be running if everything is set up correctly.
 
 <img src="assets/hf1.png" width="800" height="400">
-
 <img src="assets/hf2.png" style="float:left; width: 49%; margin-right: 1%; height:400px;">
 <img src="assets/hf3.png" style="float:left; width: 49%; margin-right: 1%; height:400px;">
 
