@@ -144,7 +144,6 @@ tensorflow-estimator==2.9.0
 tensorflow-io-gcs-filesystem==0.30.0
 termcolor==2.2.0
 terminado==0.17.1
-tflite-runtime==2.5.0.post1
 threadpoolctl==3.1.0
 tifffile==2023.1.23.1
 tinycss2==1.2.1
