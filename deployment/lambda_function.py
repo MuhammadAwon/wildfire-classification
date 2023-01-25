@@ -69,11 +69,3 @@ def lambda_handler(event, context):
             "statusCode": 400,
             "body": json.dumps({"error": "Invalid URL provided, please check the URL format"})
         }
-
-
-
-
-
-
-
-

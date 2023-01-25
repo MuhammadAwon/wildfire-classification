@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API endpoint
-API = os.getenv('API')
+url = os.getenv('API')
 
 # # Local host endpoint to send request
 # url = 'http://localhost:8080/2015-03-31/functions/function/invocations'
@@ -26,7 +26,7 @@ headers = {'Content-Type': 'application/json'}
 data = {'url': img_url}
 
 # Send the POST request as json
-response = requests.post(API, json=data, headers=headers)
+response = requests.post(url, json=data, headers=headers)
 
 # Parse response in to json
 print(response.json())
