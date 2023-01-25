@@ -1,5 +1,7 @@
 # Wildfire Image Classification with TensorFlow Lite
 
+<img src="assets/main-img.jpg" width="1000" height="400">
+
 This project is aimed at developing a machine learning model to classify images of wildfires and non-wildfires with high accuracy. The primary motivation behind this project is to assist in the early detection and monitoring of wildfires, which can help prevent the loss of life and property. The dataset used in this project can be found on [Kaggle](https://www.kaggle.com/datasets/brsdincer/wildfire-detection-image-data).
 
 ## Project file structure
