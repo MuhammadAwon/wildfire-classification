@@ -127,8 +127,8 @@ To run the project and test the model's predictions:
 
 To test the model's predictions locally, we can use the web application that was built using [Streamlit](https://streamlit.io/). Before running the application, make sure that we are in the `deployment` directory. To launch the web application and start the Streamlit server, run the command `streamlit run app.py`. This command will start the server and open the web application in the browser, allowing we to test the model's predictions.
 
-<img src="assets/app1.png" style="float:left; width: 49%; margin-right: 1%; height:300px;">
-<img src="assets/app2.png" style="float:left; width: 49%; margin-right: 1%; height:300px;">
+<img src="assets/app1.png" width="800" height="400">
+<img src="assets/app2.png" width="800" height="400">
 
 ## Running the application with a Docker image
 
@@ -264,8 +264,8 @@ To deploy a Streamlit app on Huggingface spaces, follow these steps:
 With these steps completed, the app should be running if everything is set up correctly.
 
 <img src="assets/hf1.png" width="800" height="400">
-<img src="assets/hf2.png" style="float:left; width: 49%; margin-right: 1%; height:400px;">
-<img src="assets/hf3.png" style="float:left; width: 49%; margin-right: 1%; height:400px;">
+<img src="assets/hf2.png" width="800" height="400">
+<img src="assets/hf3.png" width="800" height="400">
 
 
 Access the Wildfire Image Classification App at this [link](https://huggingface.co/spaces/awon08/wildfire-image-classification)
